@@ -4,7 +4,7 @@ class Dbh
     // Variables
     protected $host = 'localhost';
     protected $user = 'root';
-    protected $pass = 'usbw';
+    protected $pass = 'Khanh123';
     protected $name = 'uncletetsu';
 
     // public connection

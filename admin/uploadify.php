@@ -7,7 +7,7 @@ Released under the MIT License <http://www.opensource.org/licenses/mit-license.p
 require_once "../models/dpd.php";
 $id 	= $_REQUEST["id"];
 // Define a destination
-$targetFolder = '../img'; // Relative to the root
+$targetFolder = 'img'; // Relative to the root
 
 $verifyToken = md5('unique_salt' . $_POST['timestamp']);
 
